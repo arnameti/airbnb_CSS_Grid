@@ -122,3 +122,49 @@ a {
 
 .discover__text {
   font-size: 1.6rem; }
+
+.airbnbplus__title {
+  font-size: 2.6rem;
+  margin: 3rem 0; }
+
+.airbnbplus__box {
+  background-image: url("../../img/airbnbplus.jpg");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-content: start;
+  grid-row-gap: 3rem;
+  padding: 4rem 0 4rem 6rem; }
+
+.airbnbplus__desc {
+  font-size: 2.2rem;
+  color: gray;
+  text-shadow: 0 0 1px gray; }
+
+.airbnbplus__link:link, .airbnbplus__link:visited {
+  color: gray;
+  display: block;
+  padding: 2rem 1rem; }
+
+.airbnbplus__button {
+  background-color: white;
+  justify-self: start;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 0 10px gray;
+  border-radius: 5px; }
+
+.airbnbplus__logo-box {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  align-items: center; }
+
+.airbnbplus__logo {
+  width: 5rem; }
+
+.airbnbplus__logo-box > p {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700; }

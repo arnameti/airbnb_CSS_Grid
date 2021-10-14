@@ -1,0 +1,56 @@
+.airbnbplus {
+  &__title {
+    font-size: 2.6rem;
+    margin: 3rem 0;
+  }
+
+  &__box {
+    background-image: url("../../img/airbnbplus.jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: start;
+    grid-row-gap: 3rem;
+    padding: 4rem 0 4rem 6rem;
+  }
+
+  &__desc {
+    font-size: 2.2rem;
+    color: gray;
+    text-shadow: 0 0 1px gray;
+  }
+
+  &__link:link,
+  &__link:visited {
+    color: gray;
+    display: block;
+    padding: 2rem 1rem;
+  }
+
+  &__button {
+    background-color: white;
+    justify-self: start;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+  }
+
+  &__logo-box {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 5rem;
+  }
+
+  &__logo-box > p {
+    font-size: 3rem;
+    color: gray;
+    font-weight: 700;
+  }
+}
