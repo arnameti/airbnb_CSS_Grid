@@ -25,8 +25,31 @@ a {
   grid-template-rows: repeat(4, min-content); }
 
 .navbar {
-  background-color: green;
-  grid-column: 1 / -1; }
+  grid-column: 1 / -1;
+  font-size: 1.7rem;
+  padding: 0 10rem 0rem 5rem;
+  margin-bottom: 0.1rem;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center; }
+  .navbar__navigation {
+    justify-self: end; }
+  .navbar__logo {
+    width: 5rem; }
+  .navbar__item {
+    display: inline-block; }
+    .navbar__item:not(:last-child) {
+      margin-right: 3rem; }
+    .navbar__item > a {
+      display: inline-block;
+      padding: 3rem 1rem;
+      border-bottom: 1px solid #fff; }
+  .navbar__item > a:link,
+  .navbar__item > a:visited {
+    color: #000; }
+  .navbar__item > a:hover,
+  .navbar__item > a:active {
+    border-bottom: 1px solid #000; }
 
 .header {
   background-color: red;

@@ -1,4 +1,43 @@
 .navbar {
-  background-color: green;
   grid-column: 1 / -1;
+  font-size: 1.7rem;
+  padding: 0 10rem 0rem 5rem;
+  margin-bottom: 0.1rem;
+
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+
+  &__navigation {
+    justify-self: end;
+  }
+
+  &__logo {
+    width: 5rem;
+  }
+
+  &__item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+
+    & > a {
+      display: inline-block;
+      padding: 3rem 1rem;
+      border-bottom: 1px solid #fff;
+    }
+  }
+
+  &__item > a:link,
+  &__item > a:visited {
+    color: #000;
+
+  }
+
+  &__item > a:hover,
+  &__item > a:active {
+    border-bottom: 1px solid #000;
+  }
 }
