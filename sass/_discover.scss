@@ -1,0 +1,30 @@
+.discover {
+  &__title {
+    font-size: 2.6rem;
+    margin: 3rem 0;
+  }
+
+  &__box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 270px));
+    grid-column-gap: 5rem;
+  }
+
+  &__link {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: start;
+    grid-column-gap: 2rem;
+
+    box-shadow: 0 0 2px black;
+  }
+
+  &__img {
+    width: 105px;
+  }
+
+  &__text {
+    font-size: 1.6rem;
+  }
+}

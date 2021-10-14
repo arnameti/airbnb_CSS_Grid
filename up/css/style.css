@@ -22,7 +22,7 @@ a {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 50% 1fr;
+  grid-template-columns: 1fr minmax(max-content, 120rem) 1fr;
   grid-template-rows: repeat(4, min-content); }
 
 .navbar {
@@ -92,9 +92,33 @@ a {
     border: none; }
 
 .main {
-  background-color: yellowgreen;
-  grid-column: 2 / 3; }
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-rows: repeat(3, min-content); }
 
 .footer {
   background-color: orange;
   grid-column: 2 / 3; }
+
+.discover__title {
+  font-size: 2.6rem;
+  margin: 3rem 0; }
+
+.discover__box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 270px));
+  grid-column-gap: 5rem; }
+
+.discover__link {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: start;
+  grid-column-gap: 2rem;
+  box-shadow: 0 0 2px black; }
+
+.discover__img {
+  width: 105px; }
+
+.discover__text {
+  font-size: 1.6rem; }
