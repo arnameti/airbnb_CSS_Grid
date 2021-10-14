@@ -1,4 +1,58 @@
 .header {
-  background-color: red;
   grid-column: 1 / -1;
+
+  height: 40vh;
+  width: 100%;
+
+  background-image: url(../../img/header.jpg);
+  background-repeat:no-repeat;
+  background-size: 100%;
+  
+
+  display: grid;
+  place-content: center;
+
+  &__title {
+    font-size: 4rem;
+    font-weight: 380;
+    color: #fff;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 10px #000;
+    
+  }
+
+  &__search {
+    position: relative;
+  }
+
+  &__search-icon {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 1rem;
+    fill: gray;
+  }
+
+  &__input {
+    height: 5rem;
+    width: 35vw;
+    font-size: 2rem;
+    padding: 3rem 0 3rem 5rem;
+    margin-top: 2rem;
+    margin-right: -9rem;
+  
+
+    &::placeholder {
+      font-size: 2rem;
+    }
+  }
+
+  &__button {
+    height: 4rem;
+    width: 7rem;
+    background-color: lightsalmon;
+    border: none;
+  }
+
 }
