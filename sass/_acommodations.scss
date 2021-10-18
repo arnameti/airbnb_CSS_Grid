@@ -65,3 +65,32 @@
     margin-left: 1rem;
   }
 }
+
+@media screen and (max-width: 739px) {
+  .accommodations__box {
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 30rem));
+  }
+
+  .accommodation__photo {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .accommodations__box {
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 30rem));
+    justify-items: center;
+  }
+
+  .accommodation__photo {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .accommodations__title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}

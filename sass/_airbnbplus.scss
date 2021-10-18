@@ -54,3 +54,30 @@
     font-weight: 700;
   }
 }
+
+@media screen and (max-width: 545px) {
+  .airbnbplus__desc {
+    display: none;
+  }
+
+  .airbnbplus__box {
+    justify-items: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .airbnbplus__logo-box {
+    display: none;
+  }
+
+  .airbnbplus__title {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .airbnbplus__button {
+    font-size: 1.2rem;
+  }
+} 
