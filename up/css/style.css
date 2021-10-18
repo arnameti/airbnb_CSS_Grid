@@ -169,17 +169,37 @@ a {
   color: gray;
   font-weight: 700; }
 
+.accommodations__title {
+  margin: 3rem 0;
+  font-size: 2.6rem; }
+
 .accommodations__box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min-content, 25rem));
   grid-column-gap: 1rem;
+  grid-row-gap: 5rem;
   justify-content: space-between; }
 
 .accommodation {
   display: grid;
-  grid-row-gap: 0.2rem; }
+  grid-row-gap: 0.5rem; }
   .accommodation__photo {
     width: 25rem; }
+  .accommodation__details > p {
+    display: inline-block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .accommodation__desc {
+    font-size: 1.8rem;
+    word-spacing: 2px;
+    font-weight: bold;
+    line-height: normal; }
+  .accommodation__price {
+    font-size: 1.2rem; }
   .accommodation__star {
     width: 1rem;
     height: 1rem; }
+  .accommodation__raiting {
+    display: inline-block;
+    margin-left: 1rem; }
