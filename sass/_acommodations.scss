@@ -1,29 +1,49 @@
 .accommodations__box {
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 25rem));
+  grid-column-gap: 1rem;
+  justify-content: space-between;
 }
 
 .accommodation {
+  display: grid;
+
   &__photo {
-    width: 20rem;
+    width: 25rem;
   }
 
+  &__details {
+
+  }
+  
   &__category {
+
   }
 
   &__city {
+
   }
 
   &__desc {
+
   }
 
   &__price {
+
   }
 
   &__star-box {
+
+  }
+
+  &__raiting {
+
   }
 
   &__star {
     width: 1rem;
     height: 1rem;
   }
+
+  
 }

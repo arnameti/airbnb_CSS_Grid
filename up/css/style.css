@@ -169,9 +169,16 @@ a {
   color: gray;
   font-weight: 700; }
 
-.accommodation__photo {
-  width: 20rem; }
+.accommodations__box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 25rem));
+  grid-column-gap: 1rem;
+  justify-content: space-between; }
 
-.accommodation__star {
-  width: 1rem;
-  height: 1rem; }
+.accommodation {
+  display: grid; }
+  .accommodation__photo {
+    width: 25rem; }
+  .accommodation__star {
+    width: 1rem;
+    height: 1rem; }
