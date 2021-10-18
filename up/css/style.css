@@ -22,7 +22,7 @@ a {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr minmax(max-content, 120rem) 1fr;
+  grid-template-columns: 1fr minmax(max-content, 110rem) 1fr;
   grid-template-rows: repeat(4, min-content); }
 
 .navbar {
@@ -176,7 +176,8 @@ a {
   justify-content: space-between; }
 
 .accommodation {
-  display: grid; }
+  display: grid;
+  grid-row-gap: 0.2rem; }
   .accommodation__photo {
     width: 25rem; }
   .accommodation__star {

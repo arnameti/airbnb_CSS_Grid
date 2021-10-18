@@ -7,43 +7,39 @@
 
 .accommodation {
   display: grid;
+  grid-row-gap: 0.2rem;
 
   &__photo {
     width: 25rem;
   }
 
   &__details {
-
+    
+   
   }
-  
-  &__category {
 
+  &__category {
+    
   }
 
   &__city {
-
+    
   }
 
   &__desc {
-
   }
 
   &__price {
-
   }
 
   &__star-box {
-
   }
 
   &__raiting {
-
   }
 
   &__star {
     width: 1rem;
     height: 1rem;
   }
-
-  
 }
