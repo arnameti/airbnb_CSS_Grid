@@ -107,7 +107,7 @@ a {
 .discover__box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min-content, 270px));
-  grid-column-gap: 5rem; }
+  grid-column-gap: 2rem; }
 
 .discover__link {
   display: grid;
@@ -168,3 +168,10 @@ a {
   font-size: 3rem;
   color: gray;
   font-weight: 700; }
+
+.accommodation__photo {
+  width: 20rem; }
+
+.accommodation__star {
+  width: 1rem;
+  height: 1rem; }
